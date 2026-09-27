@@ -1,0 +1,39 @@
+{
+  "name": "Heavensunder",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Shared": {
+        "$path": "scripts/ReplicatedStorage/Shared",
+        "$ignoreUnknownInstances": true
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "scripts/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "scripts/StarterPlayer/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      },
+      "StarterCharacter": {
+        "$className": "Model",
+        "$ignoreUnknownInstances": true,
+        "Animate": { "$path": "scripts/StarterPlayer/StarterCharacter/Animate.client.luau" }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "READ_ME — Heavensunder": { "$path": "scripts/Workspace/READ_ME — Heavensunder.server.luau" }
+    }
+  }
+}

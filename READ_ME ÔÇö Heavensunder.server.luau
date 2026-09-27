@@ -1,0 +1,6 @@
+-- HEAVENSUNDER: NINEFOLD ASCENSION
+-- Open the companion START HERE guide. Press Play (F5), not Run.
+-- World and Lighting are authored, not generated at runtime.
+-- Custom player: R15-compatible rig + an animated Qi core.
+-- Studio progress is temporary by default; see Shared.Config.
+-- This is a source-complete prototype; validate with Studio multi-client testing before publishing.

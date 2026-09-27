@@ -1,0 +1,6 @@
+# Heavensunder Python tools. Needs Python 3.10+.
+# Install once from the repo root:
+#   pip install -r python/requirements.txt
+numpy>=1.24
+scipy>=1.10      # pose_design.py (Nelder-Mead arm IK)
+Pillow>=10.0     # rigsim.py (offline renders)
