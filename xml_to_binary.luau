@@ -1,6 +1,0 @@
--- lune run lune/xml_to_binary.luau in.rbxlx out.rbxl   (converts a place between XML and binary; output format by extension)
-local fs = require("@lune/fs"); local roblox = require("@lune/roblox"); local process = require("@lune/process")
-local game = roblox.deserializePlace(fs.readFile(process.args[1]))
-print("instances:", #game:GetDescendants())
-fs.writeFile(process.args[2], roblox.serializePlace(game, string.find(process.args[2], "%.rbxlx$") ~= nil))
-print("wrote", process.args[2])
