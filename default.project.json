@@ -1,0 +1,105 @@
+{
+  "name": "Inkwing",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      },
+      "Realm": {
+        "$className": "StringValue",
+        "$properties": {
+          "Value": "Overworld"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMaxZoomDistance": 90,
+        "CharacterUseJumpPower": true,
+        "CharacterJumpPower": 50,
+        "CharacterWalkSpeed": 20
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      }
+    },
+    "Players": {
+      "$properties": {
+        "RespawnTime": 3
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FallenPartsDestroyHeight": -20000.0,
+        "Gravity": 196.2
+      },
+      "World": {
+        "$path": "src/Workspace/World.model.json"
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.59,
+          0.59,
+          0.67
+        ],
+        "OutdoorAmbient": [
+          0.73,
+          0.71,
+          0.8
+        ],
+        "Brightness": 2.5,
+        "ClockTime": 15.2,
+        "GeographicLatitude": 25,
+        "Technology": "Future",
+        "ShadowSoftness": 0.5
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.3,
+          "Color": [
+            0.8,
+            0.87,
+            1.0
+          ],
+          "Decay": [
+            0.69,
+            0.75,
+            0.96
+          ],
+          "Haze": 1.4,
+          "Glare": 0.0
+        }
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0.35,
+          "Threshold": 1.8,
+          "Size": 24
+        }
+      },
+      "Color": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": {
+          "Saturation": 0.15,
+          "Contrast": 0.05
+        }
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    }
+  }
+}
